@@ -56,3 +56,4 @@ And run the server:
 ```sh
 $ jekyll serve
 ```
+ the link below content the information for installing https://medium.com/@vovakuzmenkov/get-a-website-with-github-pages-9151ed636446
