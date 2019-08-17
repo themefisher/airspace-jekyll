@@ -1,7 +1,7 @@
-- name: Dr Casimiro Gomez Gonzales
-  title: CEO-Smartest Puebla, México
-  testimonial: "La empresa ha colaborado en el desarrollo de micrositios que utilizamos para nuestra empresa de desarrollo de sistemas embebidos."
-  image: img/item-img2.jpg
+#- name: Dr Casimiro Gomez Gonzales
+#  title: CEO-Smartest Puebla, México
+#  testimonial: "La empresa ha colaborado en el desarrollo de micrositios que utilizamos para nuestra empresa de desarrollo de sistemas embebidos."
+#  image: img/item-img2.jpg
 - name: Dr Heladio Morales Segura
   title: Traumatologia y Ortopedia Cuautla,Morelos , México.
   testimonial: "La comunicacion con mis pasientes ha mejorado gracias al trabajo realizado por DIGIMAT mi pagina web y las protesis impresas fomentan la innovacion de mis servicios"
