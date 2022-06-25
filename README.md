@@ -1,65 +1,66 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+# Airspace Jekyll
 
-This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
+Airspace Jekyll Creative Agency Template ported from [Airspace HTML Template](https://themefisher.com/products/airspace/)
 
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
+![airspace](https://demo.themefisher.com/thumbnails/airspace.png)
 
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
+## Setup
 
-## Steps for Setup:
+To start your project, fork this repository
+After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
-### Make sure you have Ruby
+Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
 
-First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
+## Customize
 
-```sh
-$ ruby -v
-ruby [version number] (date) [your platform]
-```
+Things you can customize in `_data/settings.yml` (no HTML/CSS):
 
-If you get something like `"Error, command not found"` visit the link above and
-install Ruby for your platform.
+- Theme General Settings ( name, logo, email, phone, address )
+- Hero Section
+- About Section
+- Team Section
+- Skills Section
+- Experience Section
+- Education Section
+- Services Section
+- Portfolio Section
+- Testimonials Section
+- Client Slider Section
+- Contact Section
 
+## Deployment
 
-### Make sure you have Bundler
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
 
-Next, make sure you have [Bundler](https://bundler.io) installed. Just like
-above, run `bundle -v` on the command line:
+## Reporting Issues
 
-```sh
-$ bundle -v
-bundle [version number]
-```
+We use GitHub Issues as the official bug tracker for **Airspace**. Please Search [existing issues](https://github.com/themefisher/airspace-jekyll/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/airspace-jekyll/issues/new)
 
-If you get `"Error, command not found"` run `gem install bundler` to install it
-using RubyGems.
+## Technical Support or Questions
 
-### Run this repository
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-Clone the repository, and `cd` into it:
-```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
-```
+<!-- licence -->
+## License
 
-Install dependencies locally:
-```sh
-$ bundle install --path vendor/bundle
-```
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
-This should install a local copy of jekyll.
+**Code License:** Released under the [MIT](https://github.com/themefisher/airspace-jekyll/blob/main/LICENSE) license.
 
-Now run the server:
-```sh
-$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
-```
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+## Donate Us (Author)
+
+This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated. Thank you!
+
+- **[Donate $10](https://www.paypal.me/themefisher/10USD)**: Thank's for creating this project, here's a tea (or some juice) for you!
+- **[Donate $20](https://www.paypal.me/themefisher/20USD)**: Wow, I am stunned. Let me take you to the movies!
+- **[Donate $30](https://www.paypal.me/themefisher/30USD)**: I really appreciate your work, let's grab some lunch!
+- **[Donate $40](https://www.paypal.me/themefisher/40USD)**: That's some awesome stuff you did right there, dinner is on me!
+- **[Donate $50](https://www.paypal.me/themefisher/50USD)**: I really really want to support this project, great job!
+- **[Donate $100](https://www.paypal.me/themefisher/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+- **[Donate $1500](https://www.paypal.me/themefisher/1500USD)**: Go buddy, and buy a Macbook Pro for yourself!
+
+Of course, you can also choose what you want to donate, all donations are awesome!
