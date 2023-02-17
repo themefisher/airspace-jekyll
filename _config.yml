@@ -1,3 +1,4 @@
+remote_theme: themefisher/airspace-jekyll-forked
 exclude:
   - "/vendor/"
   - "Gemfile"
