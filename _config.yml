@@ -1,4 +1,3 @@
-remote_theme: themefisher/airspace-jekyll-forked
 exclude:
   - "/vendor/"
   - "Gemfile"
@@ -16,13 +15,14 @@ keep_files:
 title: Airspace
 subtitle: "A free HTML5 agency template"
 url: "http://ndrewtl.github.io" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+# baseurl: "" # it Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+remote_theme: themefisher/airspace
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
