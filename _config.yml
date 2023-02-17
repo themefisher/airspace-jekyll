@@ -22,7 +22,7 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-remote_theme: themefisher/airspace
+remote_theme: themefisher/airspace-Hugo
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
