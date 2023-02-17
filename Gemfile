@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem "jekyll-remote-theme"
 gem 'bundler'
 gem 'jekyll'
 gem 'jekyll-sitemap'
