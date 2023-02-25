@@ -6,9 +6,61 @@
  * 
  */
 
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+     /* mukta-200 - latin */
+ @font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/mukta-v7-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Mukta ExtraLight'), local('Mukta-ExtraLight'),
+       url('/fonts/mukta-v7-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/mukta-v7-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-v7-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/mukta-v7-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/mukta-v7-latin-200.svg#Mukta') format('svg'); /* Legacy iOS */
+}
+
+/* mukta-300 - latin */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/mukta-v7-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Mukta Light'), local('Mukta-Light'),
+       url('/fonts/mukta-v7-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/mukta-v7-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-v7-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/mukta-v7-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/mukta-v7-latin-300.svg#Mukta') format('svg'); /* Legacy iOS */
+}
+
+/* mukta-regular - latin */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/mukta-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Mukta Regular'), local('Mukta-Regular'),
+       url('/fonts/mukta-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/mukta-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/mukta-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/mukta-v7-latin-regular.svg#Mukta') format('svg'); /* Legacy iOS */
+}
+
+/* mukta-500 - latin */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/mukta-v7-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Mukta Medium'), local('Mukta-Medium'),
+       url('/fonts/mukta-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/mukta-v7-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-v7-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/mukta-v7-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/mukta-v7-latin-500.svg#Mukta') format('svg'); /* Legacy iOS */
+}
 /* var text-decoration */
 /*--
 	Common Css
@@ -23,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -57,7 +109,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: 'Mukta', serif;
   font-style: italic;
   color: #666;
 }
@@ -120,7 +172,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -130,7 +182,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -726,7 +778,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
