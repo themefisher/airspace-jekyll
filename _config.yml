@@ -12,19 +12,15 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: karlstatik
+subtitle: "büro für tragwerksplanung"
 url: "https://karlstatik.de" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/website"
 cover: "/assets/cover.png"
 logo: "/assets/logo.svg"
 
 # Build settings
 markdown: kramdown
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 descriptions:
