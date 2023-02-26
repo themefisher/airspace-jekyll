@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- theme meta -->
+<meta name="theme-name" content="airspace-jekyll" />
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.carousel.min.js" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/fontawesome.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/brands.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/solid.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/animate.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
+
+<!-- Js -->
+<script src="{{ site.baseurl }}/assets/js/jquery.slim.min.js"></script>
+<script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }} assets/js/owl.carousel.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.waypoints.min.js"></script>
+
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
+
+<!--
+/*
+ * Airspace
+ * Ported to Jekyll by Andrew Lee
+ * https://github.com/ndrewtl/airspace-jekyll
+ * Designed and Developed by ThemeFisher
+ * https://themefisher.com/
+ *
+ */
+-->

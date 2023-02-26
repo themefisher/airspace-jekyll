@@ -15,7 +15,8 @@ keep_files:
 title: karlstatik
 subtitle: "büro für tragwerksplanung"
 url: "https://karlstatik.de" # the base hostname & protocol for your site
-baseurl: "/website"
+#baseurl: "/website"
+baseurl: "."
 cover: "/assets/cover.png"
 logo: "/assets/logo.svg"
 

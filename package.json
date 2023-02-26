@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@fontsource/mukta": "^4.5.10",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "animate.css": "^3.7.2",
+    "bootstrap": "^3.1.0",
+    "mixitup": "^3.3.1",
+    "owl.carousel": "^2.3.4",
+    "waypoints": "^4.0.1"
+  },
+  "scripts": {
+    "install": "cp -LR _assets assets",
+    "preinstall": "rm -rf assets"
+  }
+}
