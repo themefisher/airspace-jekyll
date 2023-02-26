@@ -120,7 +120,7 @@ permalink: /
 		  {% if post.thumbnail %}
 		  <img src="{{ post.thumbnail | relative_url }}" alt="">
 		  {% else %}
-		  <img src="{{ post.category | relative_url }}/thumbnail.jpg" alt="">
+		  <img src="{{ post.categories | first | relative_url }}/thumbnail.jpg" alt="">
 		  {% endif %}
                   <div class="overly">
                     <div class="position-center">
