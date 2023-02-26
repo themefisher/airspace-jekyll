@@ -2,6 +2,7 @@
 
 layout: post
 tags: Hoch
+author: Anna Brugger
 thumbnail: "img/portfolio/work1.jpg" 
 
 ---
