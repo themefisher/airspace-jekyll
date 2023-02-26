@@ -59,70 +59,27 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>Unser Leistungsspektrum</h2>
+        <h2>Unser-- Leistungsspektrum</h2>
         <p>Wir bieten unsere Leistungen im Holzbau, Stahlbau, Massivbau und beim Bauen im Bestand an. Seit einigen Jahren haben wir uns zudem auf Stahlbau in Gewässern- und Häfen spezialisiert und bieten neben Spannungsanalysen von Spezialbauteilen auch beispielsweise auch Berechnungen zur Ufer- und Baugrubensicherung an.</p>
       </div>
     </div>
     <div class="row ">
+{% for l in site.leistungen %}
       <div class="col-sm-6 col-md-3">
+	      <a href="{{ l.url | relative_url }}">
         <div class="service-item">
-          <i class="fa-solid fa-warehouse"></i>
-          <h4>Massiv-, Stahl und Holzbau</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+		<i class="fa-solid fa-{{ l.icon }}"></i>
+		<h4>{{ l.title }} </h4>
+		<p>{{ l.excerpt}}</p>
         </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-download"></i>
-          <h4>Gründungslösungen</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-road-barrier"></i>
-          <h4>Spezialbauteile</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-person-digging"></i>
-          <h4>Baugruben</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-house-chimney-crack"></i>
-          <h4>Bestandsbauten und Sanierung</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-anchor-circle-check"></i>
-          <h4>Ingenieurwasserbau</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-house-circle-check"></i>
-          <h4>Wohnbau</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa-solid fa-pen-ruler"></i>
-          <h4>Beratung</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
+	</a>
+     </div>
+{% endfor %}
+
     </div>
   </div>
 </section>
+
 <!-- Call to action Start -->
 <section id="call-to-action">
   <div class="container">
@@ -130,8 +87,8 @@ permalink: /
       <div class="col-md-12">
         <div class="block">
           <h2>Wir beraten Sie niederschwellig und individuell</h2>
-          <p> Suchen Sie ein agiles Ingenieurbüro im Raum Karlsruhe, dann
-          <a class="btn btn-default btn-call-to-action" href="#" >melden Sie sich</a>
+	  <p> Suchen Sie ein agiles Ingenieurbüro im Raum Karlsruhe, dan<p>
+          <a class="btn btn-default btn-call-to-action" href="contact" >melden Sie sich</a>
         </div>
       </div>
     </div>
@@ -146,91 +103,34 @@ permalink: /
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <div class="portfolio-menu">
+          <!--div class="portfolio-menu">
             <ul>
-              <li class="filter" data-filter="all">Everything</li>
-              <li class="filter" data-filter=".Branding">Branding</li>
-              <li class="filter" data-filter=".Websites">Websites</li>
-              <li class="filter" data-filter=".Graphic">Graphic</li>
-              <li class="filter" data-filter=".design">design</li>
-              <li class="filter" data-filter=".Video">Video</li>
+              <li class="filter" data-filter="all">Alle</li>
+              <li class="filter" data-filter=".Hoch">Hochbau</li>
+              <li class="filter" data-filter=".Tief">Tiefbau</li>
+              <li class="filter" data-filter=".Ing">Ingenieurbau</li>
             </ul>
-          </div>
-          <div class="portfolio-contant">
-            <ul id="portfolio-contant-active">
-              <li class="mix Branding">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+          </div-->
+          <div class="portfolio-content">
+            <ul id="portfolio-content-active">
+		{% for post in site.posts %}
+		<li class="mix {{ post.tags }}">
+		 <a href="{{ site.baseurl }}{{ post.url }}">
+		  {% if post.thumbnail %}
+		  <img src="img/{{ post.thumbnail }} alt="">
+		  {% else %}
+		  <img src="img/portfolio/default.jpg" alt="">
+		  {% endif %}
                   <div class="overly">
                     <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
+			    <h2>{{ post.title }}</h2>
+                      <p> {{ post.excerpt }} </p>
 
                     </div>
                   </div>
                 </a>
               </li>
-              <li class="mix Websites">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work2.jpg" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mix Graphic">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work3.jpg" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                    </div>
-                  </div>
-
-                </a>
-              </li>
-              <li class="mix design">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work4.jpg" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mix Video">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work5.jpg" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mix Graphic">
-                <a href="#">
-                  <img src="{{ site.baseurl }}/img/portfolio/work6.jpg" alt="">
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>Tesla Motors</h2>
-                      <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                    </div>
-                  </div>
-                </a>
-              </li>
+{% endfor %}
             </ul>
           </div>
         </div>

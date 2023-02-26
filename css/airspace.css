@@ -504,17 +504,18 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-#portfolio-work .block .portfolio-contant ul li {
+#portfolio-work .block .portfolio-content ul li {
   float: left;
   width: 32.22%;
   overflow: hidden;
   margin: 6px;
   position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
+#portfolio-work .block .portfolio-content ul li:hover .overly {
   opacity: 1;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
+
+#portfolio-work .block .portfolio-content ul li:hover .position-center {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0%, -50%);
@@ -522,28 +523,30 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-#portfolio-work .block .portfolio-contant ul li a {
+
+#portfolio-work .block .portfolio-content ul li a {
   display: block;
   color: #fff;
 }
-#portfolio-work .block .portfolio-contant ul li a h2 {
+
+#portfolio-work .block .portfolio-content ul li a h2 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+#portfolio-work .block .portfolio-content ul li a p {
   font-size: 15px;
 }
-#portfolio-work .block .portfolio-contant ul li a span {
+#portfolio-work .block .portfolio-content ul li a span {
   font-style: italic;
   font-size: 13px;
   color: #655E7A;
 }
-#portfolio-work .block .portfolio-contant ul img {
+#portfolio-work .block .portfolio-content ul img {
   width: 100%;
   height: auto;
 }
-#portfolio-work .block .portfolio-contant .overly {
+#portfolio-work .block .portfolio-content .overly {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -556,7 +559,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .3s all;
   text-align: center;
 }
-#portfolio-work .block .portfolio-contant .position-center {
+#portfolio-work .block .portfolio-content .position-center {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -569,7 +572,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .5s all;
 }
 #portfolio-work .block .mix {
-  display: none;
+ /* display: none;*/
 }
 /*--
 	wrapper-work Start

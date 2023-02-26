@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-	$("#portfolio-contant-active").mixItUp();
+	var mixer = mixitup("#portfolio-contant-active");
 
 
 	$("#testimonial-slider").owlCarousel({
@@ -9,8 +9,6 @@ $(document).ready(function(){
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
-
-
 
 
 	$("#clients-logo").owlCarousel({
@@ -38,12 +36,6 @@ $(document).ready(function(){
 		}
 
 
-	// Counter
-
-	$('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
 
 
 });
