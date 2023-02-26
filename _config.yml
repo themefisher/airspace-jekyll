@@ -17,8 +17,8 @@ title: karlstatik
 subtitle: "büro für tragwerksplanung"
 url: "https://karlstatik.de" # the base hostname & protocol for your site
 baseurl: "/website"
-cover: "/assets/cover.png"
-logo: "/assets/logo.svg"
+logo: "/img/logo.svg"
+lang: de
 
 # Build settings
 markdown: kramdown
