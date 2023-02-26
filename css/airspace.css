@@ -11,13 +11,9 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 200;
-  src: url('/fonts/mukta-v7-latin-200.eot'); /* IE9 Compat Modes */
   src: local('Mukta ExtraLight'), local('Mukta-ExtraLight'),
-       url('/fonts/mukta-v7-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/mukta-v7-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/mukta-v7-latin-200.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/mukta-v7-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/mukta-v7-latin-200.svg#Mukta') format('svg'); /* Legacy iOS */
+       url('../assets/fonts/mukta-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/mukta-latin-200.woff') format('woff'), /* Modern Browsers */
 }
 
 /* mukta-300 - latin */
@@ -25,13 +21,9 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 300;
-  src: url('/fonts/mukta-v7-latin-300.eot'); /* IE9 Compat Modes */
   src: local('Mukta Light'), local('Mukta-Light'),
-       url('/fonts/mukta-v7-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/mukta-v7-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/mukta-v7-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/mukta-v7-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/mukta-v7-latin-300.svg#Mukta') format('svg'); /* Legacy iOS */
+       url('../assets/fonts/mukta-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/mukta-latin-300.woff') format('woff'), /* Modern Browsers */
 }
 
 /* mukta-regular - latin */
@@ -39,13 +31,9 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/mukta-v7-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Mukta Regular'), local('Mukta-Regular'),
-       url('/fonts/mukta-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/mukta-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/mukta-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/mukta-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/mukta-v7-latin-regular.svg#Mukta') format('svg'); /* Legacy iOS */
+  src: local('Mukta Regular'), local('Mukta-Regular'), local('Mukta')
+       url('/fonts/mukta-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-latin-400.woff') format('woff'), /* Modern Browsers */
 }
 
 /* mukta-500 - latin */
@@ -53,22 +41,20 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/mukta-v7-latin-500.eot'); /* IE9 Compat Modes */
   src: local('Mukta Medium'), local('Mukta-Medium'),
-       url('/fonts/mukta-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/mukta-v7-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/mukta-v7-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/mukta-v7-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/mukta-v7-latin-500.svg#Mukta') format('svg'); /* Legacy iOS */
+       url('/fonts/mukta-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/mukta-latin-500.woff') format('woff'), /* Modern Browsers */
 }
 /* var text-decoration */
 /*--
 	Common Css
 --*/
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 h1,
 h2,
 h3,
@@ -518,17 +504,18 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-#portfolio-work .block .portfolio-contant ul li {
+#portfolio-work .block .portfolio-content ul li {
   float: left;
   width: 32.22%;
   overflow: hidden;
   margin: 6px;
   position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
+#portfolio-work .block .portfolio-content ul li:hover .overly {
   opacity: 1;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
+
+#portfolio-work .block .portfolio-content ul li:hover .position-center {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0%, -50%);
@@ -536,28 +523,30 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-#portfolio-work .block .portfolio-contant ul li a {
+
+#portfolio-work .block .portfolio-content ul li a {
   display: block;
   color: #fff;
 }
-#portfolio-work .block .portfolio-contant ul li a h2 {
+
+#portfolio-work .block .portfolio-content ul li a h2 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+#portfolio-work .block .portfolio-content ul li a p {
   font-size: 15px;
 }
-#portfolio-work .block .portfolio-contant ul li a span {
+#portfolio-work .block .portfolio-content ul li a span {
   font-style: italic;
   font-size: 13px;
   color: #655E7A;
 }
-#portfolio-work .block .portfolio-contant ul img {
+#portfolio-work .block .portfolio-content ul img {
   width: 100%;
   height: auto;
 }
-#portfolio-work .block .portfolio-contant .overly {
+#portfolio-work .block .portfolio-content .overly {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -570,7 +559,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .3s all;
   text-align: center;
 }
-#portfolio-work .block .portfolio-contant .position-center {
+#portfolio-work .block .portfolio-content .position-center {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -583,7 +572,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: .5s all;
 }
 #portfolio-work .block .mix {
-  display: none;
+ /* display: none;*/
 }
 /*--
 	wrapper-work Start
