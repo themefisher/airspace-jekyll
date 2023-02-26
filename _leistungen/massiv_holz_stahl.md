@@ -6,7 +6,6 @@ title: Massiv-, Stahl und Holzbau
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
+Wir planen Wohn- und Industriegebäude in integraler Zusammenarbeit mit Architek:innen und Bauherr:innen und unter Berücksichtigung der Bauprozesse.
 
 
