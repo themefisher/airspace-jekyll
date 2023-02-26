@@ -1,5 +1,6 @@
 exclude:
   - "/vendor/"
+  - "/node_modules/"
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"

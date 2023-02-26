@@ -47,8 +47,9 @@ permalink: /
       <p>Wir begleiten Sie aktiv vom Konzept bis zur Realisierung bei Ihrem Bau, Umbau und Sanierungsvorhaben. </p>
       <p>Wir arbeiten gerne interdiszilinär und auf Augenhöhe mit Architekten, Ingenieuren und Gewerken zusammen. Wir stehen Ihnen mit unserer Sachkunde jederzeit beratend zur Seite und unterstützen sie von der Angebotserstellung bis zur Umsetzung. 
 </p>
-      <p>Unser Angebot umfasst Tragwerksplanung/Statik entsprechend der HOAI-Leistungsphasen 1 bis 6. Wir erstellen für Sie prüffähige statische Berechnungen und Machbarkeitsstudien. 
-      <a href="#" class="btn btn-view-works">View Works</a>
+<p>Unser Angebot umfasst Tragwerksplanung/Statik entsprechend der HOAI-Leistungsphasen 1 bis 6. Wir erstellen für Sie prüffähige statische Berechnungen und Machbarkeitsstudien. </p>
+
+      <a href="#portfolio-work" class="btn btn-view-works">Unsere Referenzen</a>
     </div>
   </div>
 </div>
@@ -59,7 +60,7 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>Unser-- Leistungsspektrum</h2>
+        <h2>Unser Leistungsspektrum</h2>
         <p>Wir bieten unsere Leistungen im Holzbau, Stahlbau, Massivbau und beim Bauen im Bestand an. Seit einigen Jahren haben wir uns zudem auf Stahlbau in Gewässern- und Häfen spezialisiert und bieten neben Spannungsanalysen von Spezialbauteilen auch beispielsweise auch Berechnungen zur Ufer- und Baugrubensicherung an.</p>
       </div>
     </div>
@@ -115,9 +116,9 @@ permalink: /
             <ul id="portfolio-content-active">
 		{% for post in site.posts %}
 		<li class="mix {{ post.tags }}">
-		 <a href="{{ site.baseurl }}{{ post.url }}">
+		 <a href="{{ post.url | relative_url }}">
 		  {% if post.thumbnail %}
-		  <img src="img/{{ post.thumbnail }} alt="">
+		  <img src="{{ post.thumbnail | relative_url }}" alt="">
 		  {% else %}
 		  <img src="img/portfolio/default.jpg" alt="">
 		  {% endif %}
