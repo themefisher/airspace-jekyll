@@ -6,7 +6,7 @@ title: Gründungslösungen
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+Planung einer Unterfangungsmaßnahme vorbereitend zur Gründung eines Einfamilienhauses ut
 
 
 
