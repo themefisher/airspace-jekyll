@@ -6,7 +6,7 @@ title: Gründungslösungen
 
 ---
 
-Planung einer Unterfangungsmaßnahme vorbereitend zur Gründung eines Einfamilienhauses ut
+2022 Planung einer Unterfangungsmaßnahme vorbereitend zur Gründung eines Einfamilienhauses
 
 
 
