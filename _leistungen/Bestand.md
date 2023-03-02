@@ -6,7 +6,4 @@ title: Bestandsbauten und Sanierung
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-
-
+Wir unterstützen sie bei statisch relevanten Umbaumaßnahmen. Gerne erstellen wir Machbarkeitsstudien zur Sanierung beispielsweise von Industriebauwerken.

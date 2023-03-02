@@ -6,7 +6,4 @@ title: Spezialbauteile
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-
-
+Dreidimensionale FE-Modellierung von komplexen Spezialbauteilen mittels aktueller Software gehört zu unserem Leistungsumfang.

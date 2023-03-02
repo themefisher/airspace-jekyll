@@ -6,7 +6,4 @@ title: Wohnbau
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-
-
+Neben Industriegebäuden planen wir auch individuelle Wohngebäude in integraler Zusammenarbeit mit Architek:innen und Bauherr:innen und unter Berücksichtigung der Bauprozesse.

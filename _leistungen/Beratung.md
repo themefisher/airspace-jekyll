@@ -6,7 +6,4 @@ title: Beratung
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-
-
+Unsere beratende Ingenieurin Dipl.-Ing Dipl.-Des. Brugger bietet ihnen einen unabhängige Beratung auf neusten fachlichem Stand an.
