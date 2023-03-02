@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-	var mixer = mixitup("#portfolio-contant-active");
+	var mixer = mixitup("#portfolio-content-active");
 
 
 	$("#testimonial-slider").owlCarousel({
