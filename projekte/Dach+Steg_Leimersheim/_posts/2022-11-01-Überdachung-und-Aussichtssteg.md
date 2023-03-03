@@ -1,9 +1,9 @@
 ---
 
 layout: post
-tags: Spezial Stahl
+tags: Freizeit Stahl
 
 ---
 
-FE-Berechnung als Tragfähigkeitsnachweis einer stählernen Augplatte, da die geometrischen Formvorgaben lt. Norm nicht erfüllt waren. 
+Tragwerksberechnung einer Überdachung in Holz-Stahl-Mischbauweise und einer stählernen Stegkonstruktion in unmittelbarer Überflutungsnähe am Rhein. 
 
