@@ -6,4 +6,4 @@ title: Wohnbau
 
 ---
 
-Neben Industriegebäuden planen wir auch individuelle Wohngebäude in integraler Zusammenarbeit mit Architek:innen und Bauherr:innen und unter Berücksichtigung der Bauprozesse.
+Neben Industriegebäuden unterstützen wir Sie auch gerne mit der Tragwerksplanung von individuellen Wohngebäuden oder Umbaumaßnahmen.

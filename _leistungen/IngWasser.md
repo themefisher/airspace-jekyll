@@ -6,4 +6,4 @@ title: Ingenieurwasserbau
 
 ---
 
-Unser Spezialgebiet ist die Berechnung vom Ufereinfassungen und Hafenbauwerken. Dazu zählen Hafenanlagen, Anlegestellen, Zugangsstege, Zugangstreppen, Verladeplattformen und Rohrbrücken.
+Unser Spezialgebiet ist die Berechnung vom Ufereinfassungen und Hafenbauwerken. Dazu zählen Hafenanlagen, Anlegestellen, Zugangsstege und -treppen, Verladeplattformen oder Rohrbrücken.

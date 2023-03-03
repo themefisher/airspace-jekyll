@@ -2,8 +2,8 @@
 
 layout: post
 icon: house-chimney-crack
-title: Bestandsbauten und Sanierung
+title: Bestandbauten und Sanierung
 
 ---
 
-Wir unterstützen sie bei statisch relevanten Umbaumaßnahmen. Gerne erstellen wir Machbarkeitsstudien zur Sanierung beispielsweise von Industriebauwerken.
+Wir unterstützen Sie bei statisch relevanten Umbaumaßnahmen oder erstellen Machbarkeitsstudien zur Sanierung von Bauwerken.
