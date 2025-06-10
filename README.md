@@ -1,6 +1,6 @@
 # Airspace Jekyll
 
-Airspace Jekyll Creative Agency Template ported from [Airspace HTML Template](https://themefisher.com/products/airspace/)
+Airspace Jekyll Creative Agency Template ported from [Airspace HTML Template](https://themefisher.com/products/airspace-jekyll)
 
 ![airspace](https://demo.themefisher.com/thumbnails/airspace.png)
 
