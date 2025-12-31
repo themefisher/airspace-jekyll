@@ -2,7 +2,7 @@
 
 Airspace Jekyll Creative Agency Template ported from [Airspace HTML Template](https://themefisher.com/products/airspace/)
 
-![airspace](https://demo.themefisher.com/thumbnails/airspace.png)
+![airspace](https://assets.teamosis.com/thumbs/airspace.png)
 
 ## Setup
 
