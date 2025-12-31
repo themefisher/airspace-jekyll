@@ -33,6 +33,20 @@ Things you can customize in `_data/settings.yml` (no HTML/CSS):
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
 
+<!-- edit with sitepins -->
+
+## 📝 Edit Content with CMS
+
+This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+
+**How to get started:**
+
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Airspace%20Jekyll&repository=https://github.com/themefisher/airspace-jekyll/">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
+  
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for **Airspace**. Please Search [existing issues](https://github.com/themefisher/airspace-jekyll/issues). It’s possible someone has already reported the same problem.
